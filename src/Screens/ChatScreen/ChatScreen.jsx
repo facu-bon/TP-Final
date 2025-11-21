@@ -128,7 +128,7 @@ function addNewContact(name) {
   )
 
   return (
-    <div className='contenedor'>
+    <div className='container'>
       <div className='panelizquierdo'>
 
         {

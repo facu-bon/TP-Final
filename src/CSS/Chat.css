@@ -1,8 +1,23 @@
-.contenedor {
+.container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   height: 100vh;
 }
+
+@media (min-width: 768px) {
+  .container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
+
 
 .panelizquierdo {
   background-color: #ffffff;
@@ -12,13 +27,14 @@
 
 .panelderecho {
   background-color: #b0ecda;
-    border: 1px solid #000000;
+  border: 1px solid #000000;
 }
 
-.chat-detail{
+.chat-detail {
   padding: 5px;
 
 }
+
 .chat-name {
   text-align: center;
   font-size: 24px;
@@ -34,7 +50,8 @@
   box-sizing: border-box;
   min-width: 0;
 }
-.fila-contacto:hover{
+
+.fila-contacto:hover {
   background-color: #6796dd;
   border: 1px solid #000000;
   border-radius: 1px;

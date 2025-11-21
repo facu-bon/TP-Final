@@ -1,0 +1,53 @@
+.contenedor {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100vh;
+}
+
+.panelizquierdo {
+  background-color: #ffffff;
+  border: 1px solid #000000;
+
+}
+
+.panelderecho {
+  background-color: #b0ecda;
+    border: 1px solid #000000;
+}
+
+.chat-detail{
+  padding: 5px;
+
+}
+.chat-name {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.fila-contacto a {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  text-decoration: none;
+  color: inherit;
+  box-sizing: border-box;
+  min-width: 0;
+}
+.fila-contacto:hover{
+  background-color: #6796dd;
+  border: 1px solid #000000;
+  border-radius: 1px;
+}
+
+.last {
+  padding: 5px;
+  font-size: 12px;
+  color: gray;
+  font-style: italic;
+  margin-left: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 50%;
+}
